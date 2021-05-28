@@ -3,6 +3,7 @@ const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
 const mapboxApiToken = 'pk.eyJ1IjoidG90b3NpbW8iLCJhIjoiY2twODNsN2oxMDJ0YTJwbzZmZmY4ZXRxNCJ9.EOY82Xu9785YhHUaRYfwUA';
 const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
 
+
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
   const map = new mapboxgl.Map({
